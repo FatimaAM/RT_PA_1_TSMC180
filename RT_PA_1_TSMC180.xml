@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/mehrez/Documents/PCBs/RT_PA_1_TSMC180_Alexis_240621/RT_PA_1_TSMC180/RT_PA_1_TSMC180.sch</source>
-    <date>Wed 30 Jun 2021 10:50:32 CEST</date>
+    <source>/home/mehrez/Documents/PCBs/RT_PA_1_TSMC180_F_A_060721/RT_PA_1_TSMC180_alexis/RT_PA_1_TSMC180.sch</source>
+    <date>Wed 07 Jul 2021 11:06:42 CEST</date>
     <tool>Eeschema 5.1.10-1.fc32</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -110,7 +110,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60AF9B2E</tstamp>
     </comp>
-    <comp ref="SW1">
+    <comp ref="S_VDD1">
       <value>SW_DIP_x03</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -486,6 +486,30 @@
       <sheetpath names="/Ref/" tstamps="/60B90C78/"/>
       <tstamp>610560BC</tstamp>
     </comp>
+    <comp ref="J202">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Ref/" tstamps="/60B90C78/"/>
+      <tstamp>60E7A21D</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Ref/" tstamps="/60B90C78/"/>
+      <tstamp>60E7E785</tstamp>
+    </comp>
+    <comp ref="J203">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Ref/" tstamps="/60B90C78/"/>
+      <tstamp>60E84AF7</tstamp>
+    </comp>
     <comp ref="J29">
       <value>Conn_Coaxial</value>
       <footprint>Connector_Coaxial:SMB_Jack_Vertical</footprint>
@@ -630,7 +654,7 @@
       <sheetpath names="/MOSs/" tstamps="/60C2429A/"/>
       <tstamp>60C675F8</tstamp>
     </comp>
-    <comp ref="SW6">
+    <comp ref="S_Ooi_SE1">
       <value>SW_DIP_x01</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -654,7 +678,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60BB4330</tstamp>
     </comp>
-    <comp ref="SW8">
+    <comp ref="S_OiN_comp1">
       <value>SW_DIP_x02</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -662,7 +686,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60BB433E</tstamp>
     </comp>
-    <comp ref="SW9">
+    <comp ref="S_OiP_comp1">
       <value>SW_DIP_x02</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -678,7 +702,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60BB4368</tstamp>
     </comp>
-    <comp ref="SW7">
+    <comp ref="S_Ooii_SE_Diff1">
       <value>SW_DIP_x02</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -719,10 +743,10 @@
       <tstamp>60DED17C</tstamp>
     </comp>
     <comp ref="J60">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60DF8CA9</tstamp>
     </comp>
@@ -750,7 +774,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60E604DA</tstamp>
     </comp>
-    <comp ref="SW2">
+    <comp ref="S_GiN_1">
       <value>SW_DIP_x03</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -758,7 +782,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60E604E5</tstamp>
     </comp>
-    <comp ref="SW3">
+    <comp ref="S_GiN_2">
       <value>SW_DIP_x03</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -790,7 +814,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60E6B579</tstamp>
     </comp>
-    <comp ref="SW10">
+    <comp ref="S_G1">
       <value>SW_DIP_x03</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -798,7 +822,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60E6B582</tstamp>
     </comp>
-    <comp ref="SW11">
+    <comp ref="S_G2">
       <value>SW_DIP_x02</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -822,7 +846,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60C300D2</tstamp>
     </comp>
-    <comp ref="SW13">
+    <comp ref="S_iCM_Diff1">
       <value>SW_DIP_x04</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -846,7 +870,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60C60A89</tstamp>
     </comp>
-    <comp ref="SW14">
+    <comp ref="S_iCM_M1">
       <value>SW_DIP_x04</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -870,7 +894,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60C676E8</tstamp>
     </comp>
-    <comp ref="SW15">
+    <comp ref="S_iCM_O1">
       <value>SW_DIP_x04</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -902,7 +926,7 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60D9D5D8</tstamp>
     </comp>
-    <comp ref="SW4">
+    <comp ref="S_S2_inN1">
       <value>SW_DIP_x02</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -910,13 +934,21 @@
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60B86A3F</tstamp>
     </comp>
-    <comp ref="SW5">
+    <comp ref="S_S2_inP1">
       <value>SW_DIP_x02</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
       <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
       <tstamp>60B86A45</tstamp>
+    </comp>
+    <comp ref="J402">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Configs/" tstamps="/60B597F9/"/>
+      <tstamp>60E51431</tstamp>
     </comp>
     <comp ref="J27">
       <value>Conn_01x01</value>
@@ -950,15 +982,7 @@
       <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
       <tstamp>60CA9249</tstamp>
     </comp>
-    <comp ref="J17">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
-      <tstamp>60CECED0</tstamp>
-    </comp>
-    <comp ref="SW12">
+    <comp ref="S_Bias1">
       <value>SW_DIP_x04</value>
       <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
       <datasheet>~</datasheet>
@@ -973,6 +997,46 @@
       <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
       <tstamp>60DC74C9</tstamp>
+    </comp>
+    <comp ref="J171">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
+      <tstamp>60DDF5FB</tstamp>
+    </comp>
+    <comp ref="J172">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
+      <tstamp>60DDFA0E</tstamp>
+    </comp>
+    <comp ref="J173">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
+      <tstamp>60DDFEBB</tstamp>
+    </comp>
+    <comp ref="J_VDD_io501">
+      <value>Conn_01x01_Female</value>
+      <footprint>banana:Banana_test_point_4mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
+      <tstamp>60E1B2FF</tstamp>
+    </comp>
+    <comp ref="J501">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Bias/" tstamps="/60C959DA/"/>
+      <tstamp>60E58581</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1279,374 +1343,379 @@
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
     <library logical="PA-RT-1">
-      <uri>/home/mehrez/Documents/PCBs/RT_PA_1_TSMC180_Alexis_240621/RT_PA_1_TSMC180/lib/PA-RT-1.lib</uri>
+      <uri>/home/mehrez/Documents/PCBs/RT_PA_1_TSMC180_F_A_060721/RT_PA_1_TSMC180_alexis/lib/PA-RT-1.lib</uri>
     </library>
     <library logical="Switch">
       <uri>/usr/share/kicad/library/Switch.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/VIbias">
-      <node ref="J27" pin="1"/>
-      <node ref="J15" pin="1"/>
-      <node ref="SW12" pin="4"/>
-      <node ref="SW12" pin="3"/>
-      <node ref="SW12" pin="2"/>
-      <node ref="SW12" pin="1"/>
-      <node ref="J12" pin="1"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="2" name="/VDD_O">
-      <node ref="J20" pin="1"/>
-      <node ref="U1" pin="41"/>
-      <node ref="U1" pin="28"/>
-      <node ref="C25" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="SW1" pin="4"/>
-      <node ref="J19" pin="1"/>
-    </net>
-    <net code="3" name="/VDD_diff">
-      <node ref="U1" pin="20"/>
-      <node ref="U1" pin="17"/>
-      <node ref="U1" pin="23"/>
+    <net code="1" name="/VDD_diff">
+      <node ref="U1" pin="54"/>
+      <node ref="C62" pin="1"/>
+      <node ref="C72" pin="1"/>
       <node ref="C82" pin="1"/>
       <node ref="C42" pin="1"/>
-      <node ref="C202" pin="1"/>
-      <node ref="SW1" pin="6"/>
-      <node ref="C72" pin="1"/>
       <node ref="J25" pin="1"/>
-      <node ref="J16" pin="1"/>
-      <node ref="C62" pin="1"/>
-      <node ref="U1" pin="49"/>
-      <node ref="U1" pin="43"/>
       <node ref="U1" pin="26"/>
-      <node ref="C32" pin="1"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="49"/>
       <node ref="C52" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C201" pin="1"/>
       <node ref="U1" pin="59"/>
-      <node ref="U1" pin="54"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="S_VDD1" pin="6"/>
+      <node ref="J16" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="4" name="/1V8_g">
-      <node ref="J10" pin="1"/>
+    <net code="2" name="/VDD_O">
+      <node ref="U1" pin="41"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="J19" pin="1"/>
+      <node ref="S_VDD1" pin="4"/>
+      <node ref="J20" pin="1"/>
+    </net>
+    <net code="3" name="/1V8_g">
       <node ref="J9" pin="1"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW1" pin="1"/>
+      <node ref="S_VDD1" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="S_VDD1" pin="2"/>
+      <node ref="S_VDD1" pin="3"/>
     </net>
-    <net code="5" name="/VDD_M">
-      <node ref="SW1" pin="5"/>
-      <node ref="C19" pin="1"/>
-      <node ref="U1" pin="64"/>
-      <node ref="J22" pin="1"/>
-      <node ref="U1" pin="12"/>
+    <net code="4" name="/VDD_M">
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
       <node ref="C17" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C9" pin="1"/>
       <node ref="J18" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="64"/>
       <node ref="C15" pin="1"/>
       <node ref="U1" pin="8"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C11" pin="1"/>
+      <node ref="J22" pin="1"/>
+      <node ref="S_VDD1" pin="5"/>
     </net>
-    <net code="6" name="GND">
-      <node ref="J13" pin="1"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C42" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="C52" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C62" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C82" pin="2"/>
-      <node ref="C72" pin="2"/>
+    <net code="5" name="GND">
       <node ref="C19" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C201" pin="2"/>
-      <node ref="H101" pin="1"/>
-      <node ref="H102" pin="1"/>
-      <node ref="H103" pin="1"/>
-      <node ref="H104" pin="1"/>
+      <node ref="J37" pin="2"/>
       <node ref="J41" pin="2"/>
       <node ref="J43" pin="2"/>
-      <node ref="J37" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J13" pin="1"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="C72" pin="2"/>
+      <node ref="C82" pin="2"/>
+      <node ref="C11" pin="2"/>
       <node ref="J39" pin="2"/>
-      <node ref="J65" pin="2"/>
-      <node ref="J67" pin="2"/>
-      <node ref="U1" pin="42"/>
-      <node ref="U1" pin="44"/>
-      <node ref="U1" pin="47"/>
-      <node ref="J35" pin="2"/>
-      <node ref="J5" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C201" pin="2"/>
       <node ref="C202" pin="2"/>
-      <node ref="U1" pin="11"/>
-      <node ref="J7" pin="2"/>
-      <node ref="U1" pin="16"/>
-      <node ref="U1" pin="25"/>
-      <node ref="U1" pin="19"/>
-      <node ref="U1" pin="22"/>
-      <node ref="J31" pin="2"/>
-      <node ref="U1" pin="55"/>
-      <node ref="U1" pin="60"/>
+      <node ref="C42" pin="2"/>
       <node ref="J29" pin="2"/>
-      <node ref="U1" pin="63"/>
-      <node ref="U1" pin="50"/>
-      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J67" pin="2"/>
+      <node ref="J65" pin="2"/>
+      <node ref="C22" pin="2"/>
       <node ref="J33" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U1" pin="42"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J31" pin="2"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U1" pin="60"/>
+      <node ref="U1" pin="55"/>
+      <node ref="J201" pin="1"/>
+      <node ref="J203" pin="1"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J202" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="50"/>
+      <node ref="U1" pin="47"/>
+      <node ref="H101" pin="1"/>
+      <node ref="H102" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="H104" pin="1"/>
+      <node ref="H103" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="J35" pin="2"/>
+    </net>
+    <net code="6" name="/VIbias">
+      <node ref="J27" pin="1"/>
+      <node ref="S_Bias1" pin="4"/>
+      <node ref="S_Bias1" pin="3"/>
+      <node ref="S_Bias1" pin="2"/>
+      <node ref="S_Bias1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J15" pin="1"/>
+      <node ref="J12" pin="1"/>
     </net>
     <net code="7" name="/Vi1d">
       <node ref="J401" pin="1"/>
-      <node ref="SW13" pin="5"/>
-      <node ref="SW13" pin="6"/>
-      <node ref="SW13" pin="7"/>
-      <node ref="SW13" pin="8"/>
+      <node ref="S_iCM_Diff1" pin="5"/>
+      <node ref="S_iCM_Diff1" pin="6"/>
+      <node ref="S_iCM_Diff1" pin="7"/>
+      <node ref="S_iCM_Diff1" pin="8"/>
       <node ref="U1" pin="21"/>
     </net>
     <net code="8" name="/Vi2d">
-      <node ref="SW3" pin="1"/>
-      <node ref="U1" pin="18"/>
       <node ref="J401" pin="2"/>
-      <node ref="SW2" pin="6"/>
+      <node ref="S_GiN_2" pin="1"/>
+      <node ref="S_GiN_1" pin="6"/>
+      <node ref="U1" pin="18"/>
     </net>
     <net code="9" name="/Vin">
+      <node ref="S_iCM_M1" pin="4"/>
+      <node ref="S_iCM_O1" pin="4"/>
       <node ref="C100" pin="2"/>
-      <node ref="SW13" pin="4"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J1" pin="1"/>
       <node ref="C102" pin="2"/>
-      <node ref="SW15" pin="4"/>
-      <node ref="SW14" pin="4"/>
+      <node ref="S_iCM_Diff1" pin="4"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
       <node ref="C101" pin="2"/>
     </net>
     <net code="10" name="/VM_O">
-      <node ref="J17" pin="3"/>
       <node ref="U1" pin="24"/>
+      <node ref="J173" pin="1"/>
     </net>
     <net code="11" name="/VM_M">
-      <node ref="J17" pin="2"/>
+      <node ref="J172" pin="1"/>
       <node ref="U1" pin="1"/>
     </net>
     <net code="12" name="/VM_diff">
-      <node ref="J17" pin="1"/>
       <node ref="U1" pin="48"/>
+      <node ref="J171" pin="1"/>
     </net>
-    <net code="13" name="/nD">
-      <node ref="J48" pin="1"/>
-      <node ref="J50" pin="3"/>
-      <node ref="U1" pin="40"/>
-      <node ref="J39" pin="1"/>
+    <net code="13" name="/VDD_io">
+      <node ref="J_VDD_io501" pin="1"/>
+      <node ref="J501" pin="1"/>
+      <node ref="U1" pin="46"/>
     </net>
-    <net code="14" name="/pD">
-      <node ref="J42" pin="1"/>
-      <node ref="J49" pin="3"/>
-      <node ref="J29" pin="1"/>
-      <node ref="U1" pin="65"/>
-    </net>
-    <net code="15" name="/nS">
-      <node ref="U1" pin="38"/>
-      <node ref="J43" pin="1"/>
-      <node ref="J50" pin="1"/>
-      <node ref="J54" pin="1"/>
-    </net>
-    <net code="16" name="/nB">
-      <node ref="J50" pin="2"/>
-      <node ref="J44" pin="1"/>
-      <node ref="U1" pin="45"/>
-      <node ref="J37" pin="1"/>
-    </net>
-    <net code="17" name="/nG">
-      <node ref="J41" pin="1"/>
-      <node ref="U1" pin="39"/>
-      <node ref="J50" pin="4"/>
-      <node ref="J52" pin="1"/>
-    </net>
-    <net code="18" name="/pS">
-      <node ref="J49" pin="1"/>
-      <node ref="J35" pin="1"/>
-      <node ref="J53" pin="1"/>
-      <node ref="U1" pin="68"/>
-    </net>
-    <net code="19" name="/pB">
-      <node ref="J51" pin="1"/>
-      <node ref="U1" pin="67"/>
-      <node ref="J33" pin="1"/>
-      <node ref="J49" pin="2"/>
-    </net>
-    <net code="20" name="/pG">
-      <node ref="J47" pin="1"/>
-      <node ref="J49" pin="4"/>
-      <node ref="U1" pin="66"/>
-      <node ref="J31" pin="1"/>
-    </net>
-    <net code="21" name="/Vo1m">
-      <node ref="U1" pin="2"/>
+    <net code="14" name="/Vo1m">
       <node ref="J101" pin="1"/>
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="22" name="/VbiasM">
-      <node ref="SW12" pin="6"/>
-      <node ref="U1" pin="6"/>
-      <node ref="J45" pin="1"/>
+    <net code="15" name="/TCc2">
+      <node ref="U1" pin="31"/>
+      <node ref="J61" pin="1"/>
+      <node ref="C51" pin="2"/>
     </net>
-    <net code="23" name="/T_Cc">
-      <node ref="J58" pin="3"/>
-      <node ref="U1" pin="14"/>
+    <net code="16" name="/TCc1">
+      <node ref="C57" pin="2"/>
+      <node ref="J61" pin="2"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="17" name="/VoOii">
+      <node ref="S_Ooii_SE_Diff1" pin="2"/>
+      <node ref="S_Ooii_SE_Diff1" pin="1"/>
+      <node ref="U1" pin="33"/>
+      <node ref="J62" pin="3"/>
+    </net>
+    <net code="18" name="/VoOi">
+      <node ref="J7" pin="1"/>
+      <node ref="J62" pin="2"/>
+      <node ref="S_Ooii_SE_Diff1" pin="3"/>
+      <node ref="S_Ooi_SE1" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="19" name="/Vo2O">
+      <node ref="U1" pin="30"/>
+      <node ref="S_OiN_comp1" pin="4"/>
+      <node ref="J402" pin="1"/>
+    </net>
+    <net code="20" name="/Vo1O">
+      <node ref="J60" pin="1"/>
+      <node ref="S_OiP_comp1" pin="3"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="21" name="/Vo2m">
+      <node ref="C50" pin="1"/>
+      <node ref="J58" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="22" name="/T_Cc">
       <node ref="C50" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J58" pin="3"/>
     </net>
-    <net code="24" name="/VoO">
-      <node ref="SW11" pin="3"/>
-      <node ref="SW7" pin="4"/>
+    <net code="23" name="/VoO">
       <node ref="J62" pin="1"/>
+      <node ref="S_G2" pin="3"/>
       <node ref="J5" pin="1"/>
+      <node ref="S_Ooii_SE_Diff1" pin="4"/>
       <node ref="U1" pin="32"/>
       <node ref="J6" pin="1"/>
     </net>
-    <net code="25" name="/VoM">
+    <net code="24" name="/VoM">
       <node ref="J4" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="SW11" pin="4"/>
       <node ref="J58" pin="1"/>
+      <node ref="S_G2" pin="4"/>
+      <node ref="J3" pin="1"/>
       <node ref="U1" pin="13"/>
     </net>
-    <net code="26" name="/VbiasDiff">
-      <node ref="SW12" pin="7"/>
+    <net code="25" name="/VbiasDiff">
       <node ref="J28" pin="1"/>
+      <node ref="S_Bias1" pin="7"/>
       <node ref="U1" pin="4"/>
     </net>
-    <net code="27" name="/Vo2m">
-      <node ref="U1" pin="15"/>
-      <node ref="C50" pin="1"/>
-      <node ref="J58" pin="2"/>
+    <net code="26" name="/VbiasM">
+      <node ref="J45" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="S_Bias1" pin="6"/>
     </net>
-    <net code="28" name="/VbiasO">
-      <node ref="J46" pin="1"/>
-      <node ref="SW12" pin="8"/>
+    <net code="27" name="/VbiasO">
+      <node ref="S_Bias1" pin="8"/>
       <node ref="U1" pin="3"/>
+      <node ref="J46" pin="1"/>
     </net>
-    <net code="29" name="/Vbi">
-      <node ref="SW6" pin="2"/>
-      <node ref="SW9" pin="4"/>
-      <node ref="SW8" pin="3"/>
-      <node ref="SW12" pin="5"/>
+    <net code="28" name="/Vbi">
       <node ref="J63" pin="1"/>
       <node ref="U1" pin="35"/>
+      <node ref="S_Bias1" pin="5"/>
+      <node ref="S_Ooi_SE1" pin="2"/>
+      <node ref="S_OiP_comp1" pin="4"/>
+      <node ref="S_OiN_comp1" pin="3"/>
     </net>
-    <net code="30" name="/Vi2m">
-      <node ref="U1" pin="58"/>
-      <node ref="J64" pin="1"/>
-      <node ref="SW14" pin="8"/>
-      <node ref="SW14" pin="7"/>
-      <node ref="SW14" pin="6"/>
-      <node ref="SW5" pin="4"/>
-      <node ref="SW14" pin="5"/>
-      <node ref="J56" pin="2"/>
-      <node ref="J65" pin="1"/>
+    <net code="29" name="/nD">
+      <node ref="J39" pin="1"/>
+      <node ref="J50" pin="3"/>
+      <node ref="U1" pin="40"/>
+      <node ref="J48" pin="1"/>
     </net>
-    <net code="31" name="/0V9_g">
+    <net code="30" name="/pD">
+      <node ref="J49" pin="3"/>
+      <node ref="J29" pin="1"/>
+      <node ref="J42" pin="1"/>
+      <node ref="U1" pin="65"/>
+    </net>
+    <net code="31" name="/nS">
+      <node ref="J54" pin="1"/>
+      <node ref="J43" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="J50" pin="1"/>
+    </net>
+    <net code="32" name="/nB">
+      <node ref="J50" pin="2"/>
+      <node ref="U1" pin="45"/>
+      <node ref="J44" pin="1"/>
+      <node ref="J37" pin="1"/>
+    </net>
+    <net code="33" name="/nG">
+      <node ref="J50" pin="4"/>
+      <node ref="J41" pin="1"/>
+      <node ref="U1" pin="39"/>
+      <node ref="J52" pin="1"/>
+    </net>
+    <net code="34" name="/pS">
+      <node ref="J35" pin="1"/>
+      <node ref="J53" pin="1"/>
+      <node ref="U1" pin="68"/>
+      <node ref="J49" pin="1"/>
+    </net>
+    <net code="35" name="/pB">
+      <node ref="J51" pin="1"/>
+      <node ref="J49" pin="2"/>
+      <node ref="J33" pin="1"/>
+      <node ref="U1" pin="67"/>
+    </net>
+    <net code="36" name="/pG">
+      <node ref="J49" pin="4"/>
+      <node ref="J47" pin="1"/>
+      <node ref="U1" pin="66"/>
+      <node ref="J31" pin="1"/>
+    </net>
+    <net code="37" name="/0V9_g">
+      <node ref="C401" pin="2"/>
+      <node ref="S_iCM_Diff1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="S_iCM_O1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R1" pin="2"/>
       <node ref="J11" pin="1"/>
       <node ref="J14" pin="1"/>
-      <node ref="C401" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="SW14" pin="2"/>
-      <node ref="SW15" pin="2"/>
-      <node ref="SW13" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R7" pin="2"/>
+      <node ref="S_iCM_M1" pin="2"/>
     </net>
-    <net code="32" name="/Vo1d">
-      <node ref="SW4" pin="1"/>
-      <node ref="SW4" pin="2"/>
-      <node ref="J55" pin="1"/>
+    <net code="38" name="/Vo1d">
       <node ref="U1" pin="52"/>
+      <node ref="J55" pin="1"/>
+      <node ref="S_S2_inN1" pin="1"/>
+      <node ref="S_S2_inN1" pin="2"/>
     </net>
-    <net code="33" name="/Vi1m">
-      <node ref="U1" pin="53"/>
-      <node ref="SW3" pin="2"/>
+    <net code="39" name="/Vi1m">
       <node ref="J56" pin="1"/>
-      <node ref="SW4" pin="4"/>
-      <node ref="SW2" pin="5"/>
+      <node ref="U1" pin="53"/>
+      <node ref="S_GiN_2" pin="2"/>
+      <node ref="S_GiN_1" pin="5"/>
+      <node ref="S_S2_inN1" pin="4"/>
     </net>
-    <net code="34" name="/Vi1O">
-      <node ref="SW4" pin="3"/>
-      <node ref="U1" pin="51"/>
-      <node ref="SW2" pin="4"/>
+    <net code="40" name="/Vi1O">
       <node ref="J57" pin="1"/>
-      <node ref="SW3" pin="3"/>
+      <node ref="S_GiN_2" pin="3"/>
+      <node ref="S_GiN_1" pin="4"/>
+      <node ref="S_S2_inN1" pin="3"/>
+      <node ref="U1" pin="51"/>
     </net>
-    <net code="35" name="/Vo2d">
+    <net code="41" name="/Vo2d">
       <node ref="U1" pin="57"/>
-      <node ref="SW5" pin="1"/>
-      <node ref="SW5" pin="2"/>
+      <node ref="S_S2_inP1" pin="2"/>
       <node ref="J55" pin="2"/>
+      <node ref="S_S2_inP1" pin="1"/>
     </net>
-    <net code="36" name="/Vi2O">
-      <node ref="SW15" pin="6"/>
-      <node ref="SW5" pin="3"/>
+    <net code="42" name="/Vi2m">
+      <node ref="J65" pin="1"/>
+      <node ref="J64" pin="1"/>
+      <node ref="S_iCM_M1" pin="8"/>
+      <node ref="U1" pin="58"/>
+      <node ref="J56" pin="2"/>
+      <node ref="S_iCM_M1" pin="7"/>
+      <node ref="S_iCM_M1" pin="6"/>
+      <node ref="S_iCM_M1" pin="5"/>
+      <node ref="S_S2_inP1" pin="4"/>
+    </net>
+    <net code="43" name="/Vi2O">
+      <node ref="S_S2_inP1" pin="3"/>
       <node ref="J66" pin="1"/>
-      <node ref="SW15" pin="8"/>
-      <node ref="SW15" pin="7"/>
-      <node ref="J67" pin="1"/>
-      <node ref="SW15" pin="5"/>
-      <node ref="U1" pin="56"/>
+      <node ref="S_iCM_O1" pin="6"/>
       <node ref="J57" pin="2"/>
+      <node ref="J67" pin="1"/>
+      <node ref="S_iCM_O1" pin="5"/>
+      <node ref="S_iCM_O1" pin="7"/>
+      <node ref="U1" pin="56"/>
+      <node ref="S_iCM_O1" pin="8"/>
     </net>
-    <net code="37" name="/TCc2">
-      <node ref="U1" pin="31"/>
-      <node ref="C51" pin="2"/>
-      <node ref="J61" pin="1"/>
-    </net>
-    <net code="38" name="/TCc1">
-      <node ref="J61" pin="2"/>
-      <node ref="C57" pin="2"/>
-      <node ref="U1" pin="36"/>
-    </net>
-    <net code="39" name="/VoOii">
-      <node ref="J62" pin="3"/>
-      <node ref="U1" pin="33"/>
-      <node ref="SW7" pin="1"/>
-      <node ref="SW7" pin="2"/>
-    </net>
-    <net code="40" name="/VoOi">
-      <node ref="J8" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="U1" pin="34"/>
-      <node ref="SW7" pin="3"/>
-      <node ref="J62" pin="2"/>
-      <node ref="SW6" pin="1"/>
-    </net>
-    <net code="41" name="/Vo2O">
-      <node ref="U1" pin="30"/>
-      <node ref="J60" pin="2"/>
-      <node ref="SW8" pin="4"/>
-    </net>
-    <net code="42" name="/Vo1O">
-      <node ref="SW9" pin="3"/>
-      <node ref="U1" pin="37"/>
-      <node ref="J60" pin="1"/>
-    </net>
-    <net code="43" name="Net-(U1-Pad10)">
+    <net code="44" name="Net-(U1-Pad10)">
       <node ref="U1" pin="10"/>
     </net>
-    <net code="44" name="Net-(U1-Pad62)">
+    <net code="45" name="Net-(U1-Pad62)">
       <node ref="U1" pin="62"/>
     </net>
-    <net code="45" name="Net-(U1-Pad61)">
+    <net code="46" name="Net-(U1-Pad61)">
       <node ref="U1" pin="61"/>
-    </net>
-    <net code="46" name="/VDD_io">
-      <node ref="U1" pin="46"/>
     </net>
     <net code="47" name="Net-(U1-Pad27)">
       <node ref="U1" pin="27"/>
@@ -1655,73 +1724,73 @@
       <node ref="U1" pin="9"/>
     </net>
     <net code="49" name="Net-(C401-Pad1)">
-      <node ref="SW2" pin="3"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="SW2" pin="1"/>
       <node ref="R1" pin="1"/>
+      <node ref="S_GiN_1" pin="1"/>
+      <node ref="S_GiN_1" pin="2"/>
+      <node ref="S_GiN_1" pin="3"/>
       <node ref="C401" pin="1"/>
     </net>
     <net code="50" name="Net-(R3-Pad1)">
-      <node ref="SW10" pin="5"/>
+      <node ref="S_G1" pin="5"/>
       <node ref="R3" pin="1"/>
     </net>
     <net code="51" name="Net-(R4-Pad1)">
-      <node ref="SW10" pin="4"/>
       <node ref="R4" pin="1"/>
+      <node ref="S_G1" pin="4"/>
     </net>
     <net code="52" name="Net-(C402-Pad2)">
+      <node ref="S_GiN_2" pin="5"/>
+      <node ref="S_GiN_2" pin="4"/>
       <node ref="C402" pin="2"/>
-      <node ref="SW3" pin="5"/>
-      <node ref="SW10" pin="3"/>
-      <node ref="SW3" pin="4"/>
-      <node ref="SW3" pin="6"/>
-      <node ref="SW10" pin="2"/>
-      <node ref="SW10" pin="1"/>
+      <node ref="S_GiN_2" pin="6"/>
+      <node ref="S_G1" pin="3"/>
+      <node ref="S_G1" pin="2"/>
+      <node ref="S_G1" pin="1"/>
     </net>
     <net code="53" name="Net-(R2-Pad2)">
-      <node ref="SW10" pin="6"/>
+      <node ref="S_G1" pin="6"/>
       <node ref="R2" pin="2"/>
     </net>
     <net code="54" name="Net-(C57-Pad1)">
-      <node ref="SW9" pin="1"/>
+      <node ref="S_OiP_comp1" pin="2"/>
+      <node ref="S_OiP_comp1" pin="1"/>
       <node ref="C57" pin="1"/>
-      <node ref="SW9" pin="2"/>
     </net>
     <net code="55" name="Net-(C51-Pad1)">
-      <node ref="SW8" pin="2"/>
-      <node ref="SW8" pin="1"/>
       <node ref="C51" pin="1"/>
+      <node ref="S_OiN_comp1" pin="2"/>
+      <node ref="S_OiN_comp1" pin="1"/>
     </net>
-    <net code="56" name="Net-(R7-Pad1)">
-      <node ref="SW15" pin="1"/>
-      <node ref="R7" pin="1"/>
+    <net code="56" name="Net-(C402-Pad1)">
+      <node ref="C402" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="S_G2" pin="2"/>
+      <node ref="S_G2" pin="1"/>
     </net>
     <net code="57" name="Net-(C102-Pad1)">
       <node ref="C102" pin="1"/>
-      <node ref="SW15" pin="3"/>
+      <node ref="S_iCM_O1" pin="3"/>
     </net>
-    <net code="58" name="Net-(C402-Pad1)">
-      <node ref="R3" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="SW11" pin="2"/>
-      <node ref="C402" pin="1"/>
-      <node ref="SW11" pin="1"/>
+    <net code="58" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="S_iCM_O1" pin="1"/>
     </net>
     <net code="59" name="Net-(C100-Pad1)">
-      <node ref="SW13" pin="3"/>
+      <node ref="S_iCM_Diff1" pin="3"/>
       <node ref="C100" pin="1"/>
     </net>
     <net code="60" name="Net-(R5-Pad1)">
-      <node ref="SW13" pin="1"/>
+      <node ref="S_iCM_Diff1" pin="1"/>
       <node ref="R5" pin="1"/>
     </net>
     <net code="61" name="Net-(C101-Pad1)">
+      <node ref="S_iCM_M1" pin="3"/>
       <node ref="C101" pin="1"/>
-      <node ref="SW14" pin="3"/>
     </net>
     <net code="62" name="Net-(R6-Pad1)">
-      <node ref="SW14" pin="1"/>
+      <node ref="S_iCM_M1" pin="1"/>
       <node ref="R6" pin="1"/>
     </net>
   </nets>

@@ -794,4 +794,30 @@ F 3 "~" H 5275 10650 50  0001 C CNN
 	1    5275 10650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female J17
+U 1 1 611D9A2A
+P 4150 7850
+F 0 "J17" H 4178 7876 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4178 7785 50  0000 L CNN
+F 2 "banana:Banana_test_point_4mm" H 4150 7850 50  0001 C CNN
+F 3 "~" H 4150 7850 50  0001 C CNN
+	1    4150 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 7850 3000 7850
+$Comp
+L power:GND #PWR0143
+U 1 1 611DEDD2
+P 3000 8100
+F 0 "#PWR0143" H 3000 7850 50  0001 C CNN
+F 1 "GND" H 3005 7927 50  0000 C CNN
+F 2 "" H 3000 8100 50  0001 C CNN
+F 3 "" H 3000 8100 50  0001 C CNN
+	1    3000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 8100 3000 7850
 $EndSCHEMATC
